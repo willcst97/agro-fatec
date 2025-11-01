@@ -1,0 +1,38 @@
+:root {
+  --font-mono: 'Roboto Mono', monospace;
+
+  --primary: #016630;
+  --primary-foreground: oklch(1 0 0);
+  --secondary: #231F20;
+  --secondary-foreground: #030213;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  line-height: 32px;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 18px;
+  line-height: 32px;
+
+  margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
