@@ -8,7 +8,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <ThemeProvider theme={theme}>
       <Header />
-
       {children}
     </ThemeProvider>
   )

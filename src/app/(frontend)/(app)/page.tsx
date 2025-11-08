@@ -1,6 +1,7 @@
 import '../styles.css'
 import { Box } from '@mui/material'
 import { Appresentation } from '../components/Appresentation'
+import { IntroServices } from '../components/IntroServices'
 import { Footer } from '../components/Footer'
 
 export default async function HomePage() {
@@ -10,7 +11,7 @@ export default async function HomePage() {
         <Appresentation />
       </Box>
       <Box>
-        <h1>textos</h1>
+        <IntroServices />
       </Box>
       <Box>
         <Footer />
