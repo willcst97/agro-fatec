@@ -29,7 +29,6 @@ export const Header = () => {
         >
           <Leaf color="white" />
         </Box>
-
         <Typography variant="h2" sx={{ fontSize: 24, fontWeight: 500, color: '#016630' }}>
           AgroConsult
         </Typography>
