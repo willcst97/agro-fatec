@@ -23,6 +23,7 @@ export const Footer = () => {
           mb: 4,
         }}
       >
+        
         {/* Logo e Descrição */}
         <Box>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
@@ -47,6 +48,8 @@ export const Footer = () => {
             Especialistas em consultoria agronômica para milho, soja e sorgo. Transformamos
             conhecimento em resultados práticos para o seu agronegócio.
           </Typography>
+          
+          {/* Ícones redes sociais */}
           <Box sx={{ display: 'flex', gap: 2 }}>
             <Box
               sx={{
@@ -64,7 +67,7 @@ export const Footer = () => {
                 },
               }}
             >
-              <Facebook size={18} />
+              <Facebook />
             </Box>
             <Box
               sx={{
@@ -82,7 +85,7 @@ export const Footer = () => {
                 },
               }}
             >
-              <Instagram size={18} />
+              <Instagram />
             </Box>
             <Box
               sx={{
@@ -100,7 +103,7 @@ export const Footer = () => {
                 },
               }}
             >
-              <Linkedin size={18} />
+              <Linkedin />
             </Box>
           </Box>
         </Box>
@@ -109,14 +112,11 @@ export const Footer = () => {
         <Box>
           <Typography
             variant="h6"
-            sx={{
-              fontWeight: 'bold',
-              mb: 3,
-            }}
+            sx={{ fontWeight: 'bold', mb: 3 }}
           >
             Nossos Serviços
           </Typography>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <MuiLink
               href="#"
               sx={{
@@ -209,7 +209,7 @@ export const Footer = () => {
           >
             Empresa
           </Typography>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column' }}>
             <MuiLink
               href="#"
               sx={{
@@ -302,7 +302,7 @@ export const Footer = () => {
           >
             Contato
           </Typography>
-          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2.5 }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
             <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2 }}>
               <MapPin size={18} color="#00d084" />
               <Box>
@@ -332,7 +332,7 @@ export const Footer = () => {
               </Typography>
             </Box>
 
-            <Box sx={{ mt: 2 }}>
+            <Box sx={{ mt: 1 }}>
               <Typography
                 variant="body2"
                 sx={{
@@ -343,13 +343,12 @@ export const Footer = () => {
               >
                 Horário de Atendimento
               </Typography>
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 1 }}>
-                <Clock size={16} color="#00d084" />
+              <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                 <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px' }}>
                   Segunda à Sexta: 8h às 18h
                 </Typography>
               </Box>
-              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px', ml: 3 }}>
+              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px'}}>
                 Sábado: 8h às 12h
               </Typography>
             </Box>
@@ -382,7 +381,7 @@ export const Footer = () => {
               fontSize: '14px',
             }}
           >
-            © 2024 AgroConsult. Todos os direitos reservados.
+            © 2025 AgroConsult. Todos os direitos reservados.
           </Typography>
           <Box sx={{ display: 'flex', gap: 3 }}>
             <MuiLink
