@@ -51,7 +51,7 @@ export const Header = () => {
             textDecoration: 'none',
             color: theme.palette.grey[700],
             '&:hover': { color: theme.palette.primary.main },
-            transition: 'color 0.2s ease',
+            transition: 'color 0.3s ease',
           }}
         >
           Home
@@ -64,7 +64,7 @@ export const Header = () => {
             textDecoration: 'none',
             color: theme.palette.grey[700],
             '&:hover': { color: theme.palette.primary.main },
-            transition: 'color 0.2s ease',
+            transition: 'color 0.3s ease',
           }}
         >
           Artigos
@@ -76,7 +76,7 @@ export const Header = () => {
             textDecoration: 'none',
             color: theme.palette.grey[700],
             '&:hover': { color: theme.palette.primary.main },
-            transition: 'color 0.2s ease',
+            transition: 'color 0.3s ease',
           }}
         >
           Fale Conosco

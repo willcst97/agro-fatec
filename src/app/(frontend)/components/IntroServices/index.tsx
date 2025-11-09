@@ -51,7 +51,7 @@ export const IntroServices = () => {
             fontSize: 18,
             color: '#6b7280',
             mb: 6,
-            maxWidth: '700px',
+            maxWidth: 700,
             margin: '0 auto 48px auto',
             lineHeight: 1.6,
           }}

@@ -6,7 +6,7 @@ export const Agendamento = () => {
     <Box
       sx={{
         bgcolor: '#00A33D',
-        maxWidth: '1200px',
+        maxWidth: 1200,
         margin: '0 auto',
         textAlign: 'center',
         py: 6,
@@ -16,7 +16,7 @@ export const Agendamento = () => {
     >
       <Box
         sx={{
-          maxWidth: '1400px',
+          maxWidth: 1400,
           margin: '0 auto',
           textAlign: 'center',
         }}
@@ -32,6 +32,20 @@ export const Agendamento = () => {
           }}
         >
           Pronto para Revolucionar sua Produção?
+        </Typography>
+        <Typography
+            variant="body1"
+          sx={{
+            fontSize: 16,
+            color: 'white',
+            fontWeight: 500,
+            mb: 6,
+            maxWidth: 700,
+            margin: '0 auto 48px auto',
+            lineHeight: 1.6,
+          }}
+        >
+          Nossa equipe de especialistas está pronta para analisar sua propriedade e desenvolver estratégias personalizadas para maximizar seus resultados.
         </Typography>
       </Box>
     </Box>

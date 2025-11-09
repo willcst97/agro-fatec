@@ -15,7 +15,7 @@ export const Footer = () => {
     >
       <Box
         sx={{
-          maxWidth: '1200px',
+          maxWidth: 1200,
           margin: '0 auto',
           display: 'grid',
           gridTemplateColumns: { xs: '1fr', md: '1fr 1fr 1fr 1fr' },
@@ -24,7 +24,6 @@ export const Footer = () => {
         }}
       >
         
-        {/* Logo e Descrição */}
         <Box>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
             <Box
@@ -49,7 +48,6 @@ export const Footer = () => {
             conhecimento em resultados práticos para o seu agronegócio.
           </Typography>
           
-          {/* Ícones redes sociais */}
           <Box sx={{ display: 'flex', gap: 2 }}>
             <Box
               sx={{
@@ -108,7 +106,6 @@ export const Footer = () => {
           </Box>
         </Box>
 
-        {/* Nossos Serviços */}
         <Box>
           <Typography
             variant="h6"
@@ -135,7 +132,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -148,7 +145,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -161,7 +158,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -174,7 +171,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -187,7 +184,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -198,7 +195,6 @@ export const Footer = () => {
           </Box>
         </Box>
 
-        {/* Empresa */}
         <Box>
           <Typography
             variant="h6"
@@ -215,7 +211,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -228,7 +224,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -241,7 +237,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -254,7 +250,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -267,7 +263,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -280,7 +276,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -306,13 +302,13 @@ export const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2 }}>
               <MapPin size={18} color="#00d084" />
               <Box>
-                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px' }}>
+                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                   Rua do Agronegócio, 123
                 </Typography>
-                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px' }}>
+                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                   Ribeirão Preto, SP
                 </Typography>
-                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px' }}>
+                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                   CEP: 14000-000
                 </Typography>
               </Box>
@@ -320,14 +316,14 @@ export const Footer = () => {
 
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
               <Phone size={18} color="#00d084" />
-              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px' }}>
+              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                 (16) 3333-4444
               </Typography>
             </Box>
 
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
               <Mail size={18} color="#00d084" />
-              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px' }}>
+              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                 contato@agroconsult.com.br
               </Typography>
             </Box>
@@ -338,17 +334,17 @@ export const Footer = () => {
                 sx={{
                   fontWeight: 'bold',
                   mb: 1,
-                  fontSize: '14px',
+                  fontSize: 14,
                 }}
               >
                 Horário de Atendimento
               </Typography>
               <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px' }}>
+                <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                   Segunda à Sexta: 8h às 18h
                 </Typography>
               </Box>
-              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: '14px'}}>
+              <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                 Sábado: 8h às 12h
               </Typography>
             </Box>
@@ -356,12 +352,11 @@ export const Footer = () => {
         </Box>
       </Box>
 
-      {/* Linha separadora */}
       <Box
         sx={{
           borderTop: '1px solid #2a3441',
           pt: 3,
-          maxWidth: '1200px',
+          maxWidth: 1200,
           margin: '0 auto',
         }}
       >
@@ -378,7 +373,7 @@ export const Footer = () => {
             variant="body2"
             sx={{
               color: '#8892a6',
-              fontSize: '14px',
+              fontSize: 14,
             }}
           >
             © 2025 AgroConsult. Todos os direitos reservados.
@@ -389,7 +384,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -402,7 +397,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
@@ -415,7 +410,7 @@ export const Footer = () => {
               sx={{
                 color: '#8892a6',
                 textDecoration: 'none',
-                fontSize: '14px',
+                fontSize: 14,
                 '&:hover': {
                   color: '#00d084',
                 },
