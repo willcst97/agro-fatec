@@ -4,6 +4,7 @@ import { Appresentation } from '../components/Appresentation'
 import { IntroServices } from '../components/IntroServices'
 import { Footer } from '../components/Footer'
 import { IntroAbout } from '../components/IntroAbout'
+import { Agendamento } from '../components/Agendamento'
 
 export default async function HomePage() {
   return (
@@ -18,7 +19,7 @@ export default async function HomePage() {
         <h1>cards dos serviços</h1>
       </Box>
       <Box>
-        <h1>agendamento</h1>
+        <Agendamento />
       </Box>
       <Box>
         <IntroAbout />

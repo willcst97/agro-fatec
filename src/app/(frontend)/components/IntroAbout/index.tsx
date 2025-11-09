@@ -1,4 +1,4 @@
-import { Box, Typography, Card, CardContent } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import Image from 'next/image'
 
 export const IntroAbout = () => {
@@ -23,7 +23,7 @@ export const IntroAbout = () => {
             color: 'primary.main',
             px: 1,
             borderRadius: 3,
-            fontSize: '12px',
+            fontSize: 12,
             fontWeight: 600,
             mb: 2,
             border: '1px solid #e0f2e0',
@@ -35,8 +35,8 @@ export const IntroAbout = () => {
         <Typography
           variant="h2"
           sx={{
-            fontSize: { xs: '28px', md: '42px' },
-            fontWeight: 'bold',
+            fontSize: 38, 
+            fontWeight: 600,
             color: '#1a2332',
             mb: 2,
             lineHeight: 1.2,
@@ -48,7 +48,7 @@ export const IntroAbout = () => {
         <Typography
           variant="body1"
           sx={{
-            fontSize: '18px',
+            fontSize: 18,
             color: '#6b7280',
             mb: 6,
             maxWidth: '700px',
