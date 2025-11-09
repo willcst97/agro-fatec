@@ -9,15 +9,13 @@ export const Agendamento = () => {
         maxWidth: 1200,
         margin: '0 auto',
         textAlign: 'center',
-        py: 6,
-        px: 4,
+        py: 4,
         borderRadius: 4,
       }}
     >
       <Box
         sx={{
           maxWidth: 1400,
-          margin: '0 auto',
           textAlign: 'center',
         }}
       >
@@ -40,8 +38,7 @@ export const Agendamento = () => {
             color: 'white',
             fontWeight: 500,
             maxWidth: 700,
-            mb: 6,
-            margin: '0 auto 28px auto',
+            margin: '0 auto 26px auto',
             lineHeight: 1.6,
           }}
         >
