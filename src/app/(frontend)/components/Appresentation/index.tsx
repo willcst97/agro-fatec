@@ -7,24 +7,23 @@ import config from '@payload-config'
 
 export const Appresentation = async () => {
   const payload = await getPayload({ config })
-  
+
   let siteMetrics = null
   try {
     siteMetrics = await payload.findGlobal({ slug: 'site-metrics' })
   } catch (error) {
-    // Global não existe ainda, usar valores padrão
     siteMetrics = {
       properties_served: 0,
       increased_productivity: 0,
       farmers_served: 0,
-      success_rate: 0
+      success_rate: 0,
     }
   }
 
   return (
     <Box
       sx={{
-        bgcolor: 'rgba(240, 254, 240)',
+        bgcolor: '#EFFDF3',
         display: 'grid',
         gridTemplateColumns: '1fr 1fr',
         alignItems: 'center',
