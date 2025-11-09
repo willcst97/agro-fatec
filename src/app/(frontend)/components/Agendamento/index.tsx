@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Typography, Button } from '@mui/material'
 import Image from 'next/image'
 
 export const Agendamento = () => {
@@ -34,19 +34,36 @@ export const Agendamento = () => {
           Pronto para Revolucionar sua Produção?
         </Typography>
         <Typography
-            variant="body1"
+          variant="body1"
           sx={{
             fontSize: 16,
             color: 'white',
             fontWeight: 500,
-            mb: 6,
             maxWidth: 700,
-            margin: '0 auto 48px auto',
+            mb: 6,
+            margin: '0 auto 28px auto',
             lineHeight: 1.6,
           }}
         >
-          Nossa equipe de especialistas está pronta para analisar sua propriedade e desenvolver estratégias personalizadas para maximizar seus resultados.
+          Nossa equipe de especialistas está pronta para analisar sua propriedade e desenvolver
+          estratégias personalizadas para maximizar seus resultados.
         </Typography>
+        <Button
+          variant="contained"
+          color="secondary"
+          sx={{
+            textTransform: 'none',
+            backgroundColor: 'white',
+            color: '#00A33D',
+            fontWeight: 'bold',
+            fontSize: 14,
+            paddingX: 3,
+            paddingY: 1,
+            borderRadius: 2,
+          }}
+        >
+          Agendar Consultoria Gratuita
+        </Button>
       </Box>
     </Box>
   )
