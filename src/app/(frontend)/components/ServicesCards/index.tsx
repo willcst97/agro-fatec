@@ -73,7 +73,62 @@ export const ServicesCards = () => {
             gap: 4,
           }}
         >
-          
+          {services.map((service) => (
+            <Card
+              key={service.id}
+              sx={{
+                borderRadius: 3,
+                overflow: 'hidden',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+                transition: 'all 0.3s ease',
+                cursor: 'pointer',
+                '&:hover': {
+                  boxShadow: '0 12px 24px rgba(0, 0, 0, 0.15)',
+                  '& .service-image': {
+                    transform: 'scale(1.05)',
+                  },
+                },
+              }}
+            >
+              <Box
+                sx={{
+                  position: 'relative',
+                  height: 200,
+                  overflow: 'hidden',
+                }}
+              >
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  fill
+                  className="service-image"
+                  style={{
+                    objectFit: 'cover',
+                    transition: 'transform 0.3s ease',
+                  }}
+                />
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    top: 16,
+                    left: 16,
+                    width: 48,
+                    height: 48,
+                    borderRadius: 2,
+                    bgcolor: 'white',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
+                  }}
+                >
+                  {service.icon}
+                </Box>
+              </Box>
+
+              
+            </Card>
+          ))}
         </Box>
       </Box>
     </Box>
