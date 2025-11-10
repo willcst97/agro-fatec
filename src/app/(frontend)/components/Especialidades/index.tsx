@@ -21,15 +21,14 @@ export const Especialidades = () => {
           alignItems: 'center',
         }}
       >
-        {/* Conteúdo Textual */}
         <Box>
           <Typography
             variant="h2"
             sx={{
-              fontSize: { xs: '28px', md: '36px' },
-              fontWeight: 'bold',
-              color: '#1e293b',
-              mb: 3,
+              fontSize: 28,
+              fontWeight: 600,
+              color: 'black',
+              mb: 2,
               lineHeight: 1.2,
             }}
           >
@@ -39,9 +38,9 @@ export const Especialidades = () => {
           <Typography
             variant="body1"
             sx={{
-              fontSize: '16px',
+              fontSize: 16,
               color: '#64748b',
-              mb: 4,
+              mb: 3,
               lineHeight: 1.6,
             }}
           >
@@ -50,7 +49,6 @@ export const Especialidades = () => {
             vasta experiência prática e conhecimento científico atualizado.
           </Typography>
 
-          {/* Lista de Características */}
           <Box sx={{ mb: 4 }}>
             <Box sx={{ display: 'flex', alignItems: 'flex-start', mb: 3 }}>
               <Box
@@ -58,7 +56,7 @@ export const Especialidades = () => {
                   width: 8,
                   height: 8,
                   borderRadius: '50%',
-                  bgcolor: '#10b981',
+                  bgcolor: 'secondary.main',
                   mt: 1,
                   mr: 2,
                   flexShrink: 0,
@@ -68,9 +66,9 @@ export const Especialidades = () => {
                 <Typography
                   variant="h6"
                   sx={{
-                    fontSize: '16px',
-                    fontWeight: 'bold',
-                    color: '#1e293b',
+                    fontSize: 16,
+                    fontWeight: 600,
+                    color: 'black',
                     mb: 0.5,
                   }}
                 >
@@ -79,7 +77,7 @@ export const Especialidades = () => {
                 <Typography
                   variant="body2"
                   sx={{
-                    fontSize: '14px',
+                    fontSize: 14,
                     color: '#64748b',
                   }}
                 >
@@ -94,7 +92,7 @@ export const Especialidades = () => {
                   width: 8,
                   height: 8,
                   borderRadius: '50%',
-                  bgcolor: '#10b981',
+                  bgcolor: 'secondary.main',
                   mt: 1,
                   mr: 2,
                   flexShrink: 0,
@@ -104,9 +102,9 @@ export const Especialidades = () => {
                 <Typography
                   variant="h6"
                   sx={{
-                    fontSize: '16px',
-                    fontWeight: 'bold',
-                    color: '#1e293b',
+                    fontSize: 16,
+                    fontWeight: 600,
+                    color: 'black',
                     mb: 0.5,
                   }}
                 >
@@ -115,7 +113,7 @@ export const Especialidades = () => {
                 <Typography
                   variant="body2"
                   sx={{
-                    fontSize: '14px',
+                    fontSize: 14,
                     color: '#64748b',
                   }}
                 >
@@ -130,7 +128,7 @@ export const Especialidades = () => {
                   width: 8,
                   height: 8,
                   borderRadius: '50%',
-                  bgcolor: '#10b981',
+                  bgcolor: 'secondary.main',
                   mt: 1,
                   mr: 2,
                   flexShrink: 0,
@@ -140,9 +138,9 @@ export const Especialidades = () => {
                 <Typography
                   variant="h6"
                   sx={{
-                    fontSize: '16px',
-                    fontWeight: 'bold',
-                    color: '#1e293b',
+                    fontSize: 16,
+                    fontWeight: 600,
+                    color: 'black',
                     mb: 0.5,
                   }}
                 >
@@ -151,7 +149,7 @@ export const Especialidades = () => {
                 <Typography
                   variant="body2"
                   sx={{
-                    fontSize: '14px',
+                    fontSize: 14,
                     color: '#64748b',
                   }}
                 >
@@ -161,7 +159,6 @@ export const Especialidades = () => {
             </Box>
           </Box>
 
-          {/* Botão */}
           <Button
             variant="contained"
             endIcon={<ArrowRight size={20} />}
@@ -192,12 +189,11 @@ export const Especialidades = () => {
         >
           <Image
             src="/image.png"
-            alt="Equipe de Especialistas AgroConsult"
+            alt="Imagem de preenchimento"
             width={500}
             height={400}
             style={{
               objectFit: 'cover',
-              borderRadius: '12px',
               maxWidth: '100%',
               height: 'auto',
             }}
