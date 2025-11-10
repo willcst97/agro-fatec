@@ -51,7 +51,7 @@ export const Agendamento = () => {
           sx={{
             textTransform: 'none',
             backgroundColor: 'white',
-            color: '#00A33D',
+            color: 'secondary.main',
             fontWeight: 'bold',
             fontSize: 14,
             paddingX: 3,

@@ -20,7 +20,7 @@ export const Header = () => {
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
         <Box
           sx={{
-            backgroundColor: '#016630',
+            backgroundColor: 'primary.main',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -31,7 +31,7 @@ export const Header = () => {
         >
           <Leaf color="white" />
         </Box>
-        <Typography variant="h2" sx={{ fontSize: 24, fontWeight: 500, color: '#016630' }}>
+        <Typography variant="h2" sx={{ fontSize: 24, fontWeight: 500, color: 'primary.main' }}>
           AgroConsult
         </Typography>
       </Box>

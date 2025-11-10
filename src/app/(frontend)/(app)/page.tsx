@@ -10,7 +10,7 @@ import { About } from '../components/About'
 export default async function HomePage() {
   return (
     <>
-      <Box sx={{ bgcolor: '#EFFDF3' }} >
+      <Box sx={{ bgcolor: '#EFFDF3' }}>
         <Appresentation />
       </Box>
       <Box>

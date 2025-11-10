@@ -33,7 +33,6 @@ export const IntroAbout = () => {
         </Box>
 
         <Typography
-          variant="h2"
           sx={{
             fontSize: 38, 
             fontWeight: 600,
@@ -46,7 +45,6 @@ export const IntroAbout = () => {
         </Typography>
 
         <Typography
-          variant="body1"
           sx={{
             fontSize: 18,
             color: '#6b7280',

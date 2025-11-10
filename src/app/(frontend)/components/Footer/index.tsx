@@ -39,11 +39,11 @@ export const Footer = () => {
             >
               <Leaf color="white" />
             </Box>
-            <Typography variant="h2" sx={{ fontSize: 24, fontWeight: 500, color: 'white' }}>
+            <Typography sx={{ fontSize: 24, fontWeight: 500, color: 'white' }}>
               AgroConsult
             </Typography>
           </Box>
-          <Typography variant="body2" sx={{ color: '#8892a6', lineHeight: 1.6, mb: 3 }}>
+          <Typography sx={{ fontSize: 16, color: '#8892a6', lineHeight: 1.6, mb: 3 }}>
             Especialistas em consultoria agronômica para milho, soja e sorgo. Transformamos
             conhecimento em resultados práticos para o seu agronegócio.
           </Typography>
