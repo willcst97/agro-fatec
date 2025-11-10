@@ -62,7 +62,7 @@ export const ServicesCards = () => {
     >
       <Box
         sx={{
-          maxWidth: '1200px',
+          maxWidth: 1200,
           margin: '0 auto',
         }}
       >
@@ -126,7 +126,114 @@ export const ServicesCards = () => {
                 </Box>
               </Box>
 
-              
+              <CardContent sx={{ p: 3 }}>
+                <Typography
+                  sx={{
+                    fontSize: 20,
+                    fontWeight: 500,
+                    mb: 2,
+                  }}
+                >
+                  {service.title}
+                </Typography>
+
+                <Typography
+                  sx={{
+                    color: 'grey.800',
+                    fontSize: 14,
+                    lineHeight: 1.6,
+                    mb: 3,
+                  }}
+                >
+                  {service.description}
+                </Typography>
+
+                <Typography
+                  sx={{
+                    fontSize: 16,
+                    fontWeight: 600,
+                    mb: 1,
+                  }}
+                >
+                  Principais Benefícios:
+                </Typography>
+
+                <Box sx={{ mb: 3 }}>
+                  {service.benefits.map((benefit, index) => (
+                    <Box
+                      key={index}
+                      sx={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        mb: 1,
+                      }}
+                    >
+                      <Box
+                        sx={{
+                          width: 6,
+                          height: 6,
+                          borderRadius: '50%',
+                          bgcolor: 'primary.main',
+                          mr: 2,
+                          flexShrink: 0,
+                        }}
+                      />
+                      <Typography
+                        sx={{
+                          fontSize: 14,
+                          color: 'grey.800',
+                        }}
+                      >
+                        {benefit}
+                      </Typography>
+                    </Box>
+                  ))}
+                </Box>
+
+                <Box
+                  sx={{
+                    bgcolor: '#F0FDF4',
+                    borderRadius: 3,
+                    p: 2,
+                    mb: 3,
+                    textAlign: 'center',
+                  }}
+                >
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      textAlign: 'left',
+                      fontSize: 14,
+                      fontWeight: 600,
+                      color: 'primary.main',
+                    }}
+                  >
+                    {service.highlight}
+                  </Typography>
+                </Box>
+
+                <Button
+                  variant="outlined"
+                  endIcon={<ArrowRight size={18} />}
+                  fullWidth
+                  sx={{
+                    color: '#10b981',
+                    py: 1,
+                    borderRadius: 3,
+                    textTransform: 'none',
+                    fontSize: 14,
+                    fontWeight: 600,
+                    '&:hover': {
+                      borderColor: '#059669',
+                      color: '#059669',
+                      bgcolor: 'rgba(16, 185, 129, 0.04)',
+                      transition: 'all 0.3s ease',
+                    },
+                  }}
+                >
+                  Saiba Mais
+                </Button>
+              </CardContent>
             </Card>
           ))}
         </Box>

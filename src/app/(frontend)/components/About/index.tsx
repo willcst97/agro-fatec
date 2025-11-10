@@ -6,14 +6,14 @@ export const About = () => {
     <Box>
       <Box
         sx={{
-          maxWidth: '1200px',
+          maxWidth: 1200,
           margin: '0 auto',
         }}
       >
         <Box
           sx={{
             display: 'grid',
-            gridTemplateColumns: { xs: '1fr', sm: '1fr 1fr', lg: 'repeat(4, 1fr)' },
+            gridTemplateColumns: { xs: '1fr 1fr 1fr 1fr' },
             gap: 3,
             mb: 8,
           }}
