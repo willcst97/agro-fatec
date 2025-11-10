@@ -11,14 +11,18 @@ import { Especialidades } from '../components/Especialidades'
 export default async function HomePage() {
   return (
     <>
-      <Box sx={{ bgcolor: '#EFFDF3' }}>
+      <Box
+        sx={{
+          background: 'linear-gradient(to bottom, #EFFDF3 0%, #E5FDED 100%)',
+        }}
+      >
         <Appresentation />
       </Box>
       <Box>
         <IntroServices />
       </Box>
       <Box>
-        <h1>cards dos serviços</h1>
+
       </Box>
       <Box>
         <Agendamento />
