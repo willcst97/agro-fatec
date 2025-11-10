@@ -7,6 +7,8 @@ export const Header = () => {
   return (
     <Box
       sx={{
+        maxWidth: '1200px',
+        margin: '0 auto',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
