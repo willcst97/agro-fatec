@@ -34,10 +34,11 @@ export const Appresentation = async () => {
       }}
     >
       <Box sx={{ paddingX: 4, display: 'flex', flexDirection: 'column', gap: 2 }}>
-        <Typography variant="h1" sx={{ fontSize: 48, fontWeight: 600 }}>
+        <Typography variant="h1" sx={{ fontSize: 44, fontWeight: 600, lineHeight: 1.2 }}>
           Maximize o Potencial do seu{' '}
           <Typography
-            sx={{ color: 'primary.main', fontSize: 48, fontWeight: 600, lineHeight: 1.2 }}
+            component="span"
+            sx={{ color: 'primary.main', fontSize: 44, fontWeight: 600 }}
           >
             Agronegócio
           </Typography>
