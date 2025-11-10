@@ -5,6 +5,7 @@ import { IntroServices } from '../components/IntroServices'
 import { Footer } from '../components/Footer'
 import { IntroAbout } from '../components/IntroAbout'
 import { Agendamento } from '../components/Agendamento'
+import { About } from '../components/About'
 
 export default async function HomePage() {
   return (
@@ -21,10 +22,14 @@ export default async function HomePage() {
       <Box>
         <Agendamento />
       </Box>
-      <Box>
+      <Box 
+      sx={{
+        mt: 9,
+        bgcolor: '#f8fafc',
+      }}>
         <IntroAbout />
-      </Box>
-      <Box>
+        <About />
+        <h1>conheça nossa equipe</h1>
         <Footer />
       </Box>
     </>

@@ -5,8 +5,8 @@ export const IntroAbout = () => {
   return (
     <Box
       sx={{
+        bgcolor: '#f8fafc',
         py: 8,
-        px: 4,
       }}
     >
       <Box
