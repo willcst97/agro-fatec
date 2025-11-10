@@ -2,6 +2,7 @@ import '../styles.css'
 import { Box } from '@mui/material'
 import { Appresentation } from '../components/Appresentation'
 import { IntroServices } from '../components/IntroServices'
+import { ServicesCards } from '../components/ServicesCards'
 import { Footer } from '../components/Footer'
 import { IntroAbout } from '../components/IntroAbout'
 import { Agendamento } from '../components/Agendamento'
@@ -22,7 +23,7 @@ export default async function HomePage() {
         <IntroServices />
       </Box>
       <Box>
-
+        <ServicesCards />
       </Box>
       <Box>
         <Agendamento />
