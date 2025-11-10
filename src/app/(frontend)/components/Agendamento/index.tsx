@@ -5,7 +5,7 @@ export const Agendamento = () => {
   return (
     <Box
       sx={{
-        bgcolor: '#00A33D',
+        bgcolor: 'secondary.main',
         maxWidth: 1200,
         margin: '0 auto',
         textAlign: 'center',

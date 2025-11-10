@@ -6,7 +6,7 @@ export const Footer = () => {
     <Box
       component="footer"
       sx={{
-        bgcolor: '#1a2332',
+        bgcolor: '#101828',
         color: 'white',
         pt: 6,
         pb: 3,
@@ -61,7 +61,7 @@ export const Footer = () => {
                 cursor: 'pointer',
                 transition: 'all 0.3s ease',
                 '&:hover': {
-                  bgcolor: '#00d084',
+                  bgcolor: 'secondary.main',
                 },
               }}
             >
@@ -79,7 +79,7 @@ export const Footer = () => {
                 cursor: 'pointer',
                 transition: 'all 0.3s ease',
                 '&:hover': {
-                  bgcolor: '#00d084',
+                  bgcolor: 'secondary.main',
                 },
               }}
             >
@@ -97,7 +97,7 @@ export const Footer = () => {
                 cursor: 'pointer',
                 transition: 'all 0.3s ease',
                 '&:hover': {
-                  bgcolor: '#00d084',
+                  bgcolor: 'secondary.main',
                 },
               }}
             >
@@ -121,8 +121,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: '14px',
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Consultoria em Milho
@@ -134,7 +135,7 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
               }}
             >
@@ -147,8 +148,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Consultoria em Sorgo
@@ -160,8 +162,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Análise de Solo
@@ -173,8 +176,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Manejo Integrado
@@ -186,8 +190,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Monitoramento de Safra
@@ -213,8 +218,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Sobre Nós
@@ -226,8 +232,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Nossa Equipe
@@ -239,8 +246,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Casos de Sucesso
@@ -252,8 +260,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Artigos e Blog
@@ -265,8 +274,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Carreiras
@@ -278,16 +288,15 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Política de Privacidade
             </MuiLink>
           </Box>
         </Box>
-
-        {/* Contato */}
         <Box>
           <Typography
             variant="h6"
@@ -300,7 +309,7 @@ export const Footer = () => {
           </Typography>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
             <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 2 }}>
-              <MapPin size={18} color="#00d084" />
+              <MapPin size={18} color="#00A63E" />
               <Box>
                 <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                   Rua do Agronegócio, 123
@@ -315,14 +324,14 @@ export const Footer = () => {
             </Box>
 
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-              <Phone size={18} color="#00d084" />
+              <Phone size={18} color="#00A63E" />
               <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                 (16) 3333-4444
               </Typography>
             </Box>
 
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-              <Mail size={18} color="#00d084" />
+              <Mail size={18} color="#00A63E" />
               <Typography variant="body2" sx={{ color: '#8892a6', fontSize: 14 }}>
                 contato@agroconsult.com.br
               </Typography>
@@ -386,8 +395,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Termos de Uso
@@ -399,8 +409,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Política de Privacidade
@@ -412,8 +423,9 @@ export const Footer = () => {
                 textDecoration: 'none',
                 fontSize: 14,
                 '&:hover': {
-                  color: '#00d084',
+                  color: 'secondary.main',
                 },
+                transition: 'color 0.3s ease',
               }}
             >
               Cookies

@@ -6,6 +6,7 @@ import { Footer } from '../components/Footer'
 import { IntroAbout } from '../components/IntroAbout'
 import { Agendamento } from '../components/Agendamento'
 import { About } from '../components/About'
+import { Especialidades } from '../components/Especialidades'
 
 export default async function HomePage() {
   return (
@@ -22,14 +23,15 @@ export default async function HomePage() {
       <Box>
         <Agendamento />
       </Box>
-      <Box 
-      sx={{
-        mt: 9,
-        bgcolor: '#f8fafc',
-      }}>
+      <Box
+        sx={{
+          mt: 9,
+          bgcolor: '#f8fafc',
+        }}
+      >
         <IntroAbout />
         <About />
-        <h1>conheça nossa equipe</h1>
+        <Especialidades />
         <Footer />
       </Box>
     </>

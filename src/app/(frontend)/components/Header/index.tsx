@@ -89,7 +89,7 @@ export const Header = () => {
         <Button
           variant="contained"
           color="secondary"
-          sx={{ borderRadius: 2, textTransform: 'none', boxShadow: 'none' }}
+          sx={{ borderRadius: 3, textTransform: 'none', boxShadow: 'none' }}
         >
           Solicitar Consultoria
         </Button>
